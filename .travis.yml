@@ -10,8 +10,12 @@ script:
 
 deploy:
   provider: pages
-  skip_cleanup: true
-  github_token: $github_token
-  local_dir: build
+  local-dir: build
+  target-branch: gh-pages
+  email: tksudharshan@gmail.com
+  name: tks18
+  skip-cleanup: true
+  github-token: $github-token
+  keep-history: true
   on:
     branch: master
