@@ -15,7 +15,7 @@ deploy:
   email: tksudharshan@gmail.com
   name: tks18
   skip-cleanup: true
-  github-token: $github-token
+  github-token: $github_token
   keep-history: true
   on:
     branch: master
